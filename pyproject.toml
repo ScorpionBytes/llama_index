@@ -93,7 +93,7 @@ query_tools = [
 
 [tool.poetry.group.dev.dependencies]
 beautifulsoup4 = "^4.12.2"  # needed for tests
-black = {extras = ["jupyter"], version = "<=23.9.1,>=23.7.0"}
+black = {extras = ["jupyter"], version = ">=23.7.0,<=24.3.0"}
 codespell = {extras = ["toml"], version = ">=v2.2.6"}
 google-generativeai = {python = ">=3.9,<3.12", version = "^0.2.1"}
 ipython = "8.10.0"
